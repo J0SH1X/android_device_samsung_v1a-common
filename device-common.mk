@@ -60,8 +60,8 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # Shims
-PRODUCT_PACKAGES += \
-    libshim_dmitry_gps
+# PRODUCT_PACKAGES += \
+#     libshim_dmitry_gps
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
