@@ -34,8 +34,8 @@ vendor/firmware/setfile_6b2.bin
 vendor/firmware/setfile_imx134.bin
 
 # Sensors
-etc/PARAM.ini
-etc/PDC.ini
+etc/PARAM.ini:vendor/etc/PARAM.ini
+etc/PDC.ini:vendor/etc/PDC.ini
 lib/libak8963c.so:vendor/lib/libak8963c.so
 
 # Wifi Firmware
